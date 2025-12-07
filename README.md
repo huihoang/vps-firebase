@@ -1,10 +1,15 @@
-# free vps by firebase (no 24/7, otherwise keep workspace running)
-# b1
+# Free VPS by Firebase (no 24/7, otherwise keep workspace running)
+
+## Step 1
+Truy cập Firebase Studio:  
 https://studio.firebase.google.com/
 
-# b2 import this url repo
-# or clone repo and rebuild environment
+## Step 2
+Import repo này hoặc clone và rebuild environment:  
 https://github.com/huihoang/vps-firebase
 
-# b3 
+## Step 3
+Chạy Docker CLI:  
+```bash
 docker exec -it -w / ubuntu-cli bash
+```
